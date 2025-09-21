@@ -28,7 +28,7 @@ Laravel / Blade / Breeze をベースに構築し、CSS設計にはFLOCSSを採�
 
 ## スクリーンショット
 
-### トップページ（Welcome）
+### トップページ
 ![トップページ](docs/welcome.png)
 
 ### コンテンツ一覧
@@ -55,7 +55,7 @@ Laravel / Blade / Breeze をベースに構築し、CSS設計にはFLOCSSを採�
 ## 起動方法
 1. リポジトリを取得
 ```bash
-git clone https://github.com/tk-0422/url.git
+git clone https://github.com/tk-0422/url-share.git
 cd url
 ```
 
