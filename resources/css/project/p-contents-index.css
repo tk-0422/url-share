@@ -1,0 +1,27 @@
+/* project Contents-index */
+
+/* コンテンツ一覧(カードグリッド) */
+.p-contents-index {
+  display: grid;
+  gap: 1rem;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  margin-top: 2rem;
+  padding: 0 20px;
+}
+
+
+/* 見出し(ページ内タイトル) */
+.p-contents-index__title {
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin: 10px 0 1rem 10px;
+}
+
+
+/* セクション見出し(サブタイトル) */
+.p-contents-index__sectionTitle {
+    margin-top: 2rem;
+    font-size: 1.25rem;
+    font-weight: 700;
+}
+

@@ -1,0 +1,7 @@
+/* project Login(ログイン) */
+
+/* タイトル */
+.p-login-users__title {
+    font-weight: 700;
+    margin-bottom: 1.5rem;
+}

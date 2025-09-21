@@ -1,0 +1,9 @@
+:root { font-size: 16px; }
+
+body { overflow-x: hidden; }
+
+/* レイアウトの上下余白（基礎） */
+.l-main { padding: 1.5rem 0; }
+@media (min-width: 1024px) {
+  .l-main { padding: 2rem 0; }
+}

@@ -1,0 +1,84 @@
+/* Components Card */
+
+/* ベース */
+.c-card {
+    padding: 1.25rem;
+    border: 1px solid #e5e7eb;
+    border-radius: 8px;
+    background: #fff;
+    max-width: 100%;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+}
+
+/* タイトル */
+.c-card__title {
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+/* 説明文 */
+.c-card__description {
+    color: #555;
+    margin-bottom: 1rem;
+}
+
+/* 本文 */
+.c-card__body {
+    font-size: 1.05rem;
+    color: #333;
+    margin: 0.5rem 0 1rem;
+    padding-left: 20px;
+}
+
+/* 長い文折り返し */
+.c-card h1,.c-card h2,.c-car
+h3,.c-card p,.c-card a {
+    overflow-wrap: anywhere;
+    word-break: break-all;
+}
+
+/* ボタン横並び */
+.c-card__actions {
+    display: flex;
+    gap: 0.5rem;
+    flex-wrap: wrap;
+}
+
+/* アクション下詰め */
+.c-card .c-button-group,
+.c-card .c-card__actions {
+    margin-top: auto;
+}
+
+/* 直下の子を整える */
+.c-card__actions > *,
+.c-button-group > * {
+    min-width: 0;
+    margin: 0;
+    margin-top: 1rem;
+}
+
+/* ボタンリセット */
+button.c-button {
+    -webkit-appearance: none;
+    appearance: none;
+}
+
+/* ラベル */
+.c-label {
+    font-weight: bold;
+    margin-right: 0.25rem;
+}
+
+/* レスポンシブ */
+@media (max-width: 420px) {
+    .c-card-group > * {
+        flex-basis: 140px;
+    }
+}

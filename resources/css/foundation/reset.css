@@ -1,0 +1,46 @@
+/* foundation Reset */
+
+html,body {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    line-height: 1.5;
+    font-family: system-ui, sans-serif;
+    color: #333;
+}
+
+/* 余白とボックスモデルを初期化 */
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* HTML5要素をブロック化 */
+article,aside,footer,header,
+nav,section,main {
+    display: block;
+}
+
+a {
+    color: inherit;
+}
+
+button,input,
+select,textarea {
+    font: inherit;
+    background: none;
+    border: none;
+    color: inherit;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}

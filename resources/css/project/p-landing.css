@@ -1,0 +1,58 @@
+/* project Landing(ウェルカムページ) */
+
+.p-landing {
+    max-width: 900px;
+    margin: 2rem auto;
+    padding: 0 1rem;
+}
+
+/* タイトルとリード文のまとまり */
+.p-landing__hero {
+    text-align: center;
+    padding: 2rem;
+}
+
+/* タイトル */
+.p-landing__title {
+    font-size: 1.6rem;
+    margin-bottom: 0.5rem;
+}
+
+/* リード文(説明文) */
+.p-landing__lead {
+    color: #555;
+    margin-bottom: 1rem;
+}
+
+/* 機能紹介ブロック */
+.p-landing__features {
+    margin-top: 1rem;
+}
+.p-landing__list {
+    margin: 0.5rem 0 0;
+    padding-left: 1rem;
+}
+.p-landing__list li {
+    list-style: disc;
+    margin: 0.25rem 0;
+}
+
+
+/* レスポンシブ */
+@media (min-width: 1024px) {
+    .p-landing__title {
+        font-size: 1.8rem;
+    }
+    .p-landing__hero {
+        padding: 2.5rem;
+    }
+}
+
+@media (min-width: 768px) {
+    .p-landing__title {
+        font-size: 1.7rem;
+    }
+    .p-landing__hero {
+        padding: 2.25rem;
+    }
+}

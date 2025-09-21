@@ -1,0 +1,16 @@
+/* Project Form Page — フォーム画面の共通ラッパ */
+.p-form-page {
+  max-width: 480px;
+  margin: 2rem auto;
+  padding-inline: 1rem;
+}
+
+@media (min-width: 481px) {
+  .p-form-page { max-width: 520px; }
+}
+@media (min-width: 768px) {
+  .p-form-page { max-width: 640px; }
+}
+@media (min-width: 1024px) {
+  .p-form-page { max-width: 760px; }
+}

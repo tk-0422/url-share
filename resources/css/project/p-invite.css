@@ -1,0 +1,37 @@
+/* project Invite(招待ページ) */
+
+/* 招待ユーザー一覧(上に間隔) */
+.p-invite-users {
+    margin-top: 2rem;
+}
+
+/* 一覧見出し */
+.p-invite-users__title {
+    font-weight: bold;
+    margin-bottom: 1rem;
+}
+
+/* ユーザーリスト(マーカーリセット) */
+.p-invite-users__list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+/* ユーザーの名前と退出ボタンを左右に配置 */
+.p-invite-users__item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.75rem;
+    background: #fff;
+    border: 1px solid #ddd;
+    margin-bottom: 0.5rem;
+    border-radius: 4px;
+}
+
+/* 戻るボタン */
+.p-invite-back {
+    margin-top: 2rem;
+    text-align: center;
+}

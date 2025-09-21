@@ -1,0 +1,30 @@
+/* component Base */
+
+body {
+    font-family: "Helvetica Neue", "Segoe UI", sans-serif;
+    font-size: 16px;
+    line-height: 1.6;
+    background-color: wheat;
+    color: #333;
+}
+
+/* 見出し(太さ下の余白) */
+h1,h2,h3,
+h4,h5,h6 {
+    font-weight: bold;
+    margin-bottom: 0.5em;
+}
+
+
+/* 下線を常時表示 */
+a {
+  text-decoration: underline;
+  text-underline-offset: 0.2em;
+}
+
+/* マウスを乗せた時/キーボート操作時 */
+a:hover,
+a:focus-visible {
+  color: #0f172a;
+  text-underline-offset: 0.2em;
+}

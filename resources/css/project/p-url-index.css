@@ -1,0 +1,35 @@
+/* project Url-index */
+
+/* アクション行 */
+.p-url-action {
+    margin-top: 2rem;
+}
+
+/* フォームの幅＆中央寄せ */
+.p-url-form {
+    max-width: 600px;
+    margin: 2rem auto;
+}
+
+/* 右側メタ情報(親がflexの時に効く) */
+.p-url-meta {
+    flex: 1 1 auto;
+    min-width: 250px;
+}
+
+/* カードグリッド(URL一覧) */
+.p-url-index {
+  display: grid;
+  gap: 1rem;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  margin-top: 2rem;
+  padding: 0 20px;
+}
+
+/* ページ内タイトル */
+.p-url-index__title {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+    padding-left: 20px;
+}
+
